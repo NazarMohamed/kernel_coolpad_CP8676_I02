@@ -17,5 +17,7 @@
 	Pinnamanivenkat(me)
 	Linus Torvalds( For the kernel initiative)
 	CoolPad company( For such a wonderful source)
+	dragonpt for smartassv2 governor
+	Sandeep sethi
 	Ramesh Hunter & Amit Kumar ( For testing and encouraging)
 	Team AMT
