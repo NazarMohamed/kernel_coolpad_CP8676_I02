@@ -1,0 +1,11 @@
+drivers/misc/mediatek/accdet/mt6735/accdet.c:struct timer_list micbias_timer;
+drivers/misc/mediatek/accdet/mt6735/accdet.c:		del_timer_sync(&micbias_timer);
+drivers/misc/mediatek/accdet/mt6735/accdet.c:		del_timer_sync(&micbias_timer);
+drivers/misc/mediatek/accdet/mt6735/accdet.c://		del_timer_sync(&micbias_timer);
+drivers/misc/mediatek/accdet/mt6735/accdet.c:		mod_timer(&micbias_timer, jiffies + MICBIAS_DISABLE_TIMER);
+drivers/misc/mediatek/accdet/mt6735/accdet.c://		del_timer_sync(&micbias_timer);
+drivers/misc/mediatek/accdet/mt6735/accdet.c:		mod_timer(&micbias_timer, jiffies + MICBIAS_DISABLE_TIMER);
+drivers/misc/mediatek/accdet/mt6735/accdet.c:	init_timer(&micbias_timer);
+drivers/misc/mediatek/accdet/mt6735/accdet.c:	micbias_timer.expires = jiffies + MICBIAS_DISABLE_TIMER;
+drivers/misc/mediatek/accdet/mt6735/accdet.c:	micbias_timer.function = &disable_micbias;
+drivers/misc/mediatek/accdet/mt6735/accdet.c:	micbias_timer.data = ((unsigned long) 0 );
